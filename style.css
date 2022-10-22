@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+}
+
+/*  ---- Navbar ----  */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: #9b1fe9;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    margin-right: 50px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: #1b1b1b;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: #9b1fe9;
+    transition: 0.3s;
+}
+
+.menu #Last{
+    margin-right:0 ;
+    font-size: 23px;
+    color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.menu #Last:hover{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: #9b1fe9;
+    transition: 0.3s;
+}
+
+/*  ---- Homepage----  */
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.home .photo{
+    display: flex;
+    padding: 0;
+}
+
+.home .text{
+    padding-left: 100px;
+}
+
+.home>.text>.hi h5{
+    font-size: 65px;
+    font-weight: 300;
+    color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home>.text>.hi h3{
+    font-size: 90px;
+    color: #9b1fe9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home>.text>.hi h6{
+    font-weight: 400;
+    font-size: 30px;
+    color: #1b1b1b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons button{
+    width:200px;
+    height: 70px;
+    margin-top: 50px;
+    background-color: #9b1fe9;
+    border-radius: 20px;
+    border: 0 ;
+    transition: 0.3s;
+}
+
+.buttons button a{
+    text-decoration: none;
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif  ;
+    font-size: 20px ;
+    font-weight: 600 ;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.buttons button:hover{
+    background-color: transparent;
+    border: 3px solid #9b1fe9 ;
+    transition: 0.3s;
+}
+
+.buttons button a:hover{
+    color: #9b1fe9;
+    transition: 0.3s;
+}
+
+/*  ---- About ----  */
+
+.about{
+    padding-top: 50px;
+    background-color: #9b1fe9;
+    height: 300px;
+}

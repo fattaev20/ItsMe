@@ -1,2 +1,2 @@
-# Catpage
+# ItsMe
 Just another university assignment

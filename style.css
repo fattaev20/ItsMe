@@ -60,18 +60,17 @@ nav .logo{
 .home{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
     padding: 0;
-}
-
-.home .photo{
-    display: flex;
-    padding: 0;
+    margin-bottom: 100px;
 }
 
 .home .text{
     padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .home>.text>.hi h5{
@@ -96,8 +95,8 @@ nav .logo{
 
 .buttons button{
     width:200px;
-    height: 70px;
-    margin-top: 50px;
+    height: 55px;
+    margin-top: 35px;
     background-color: #9b1fe9;
     border-radius: 20px;
     border: 0 ;
@@ -128,7 +127,68 @@ nav .logo{
 /*  ---- About ----  */
 
 .about{
-    padding-top: 50px;
-    background-color: #9b1fe9;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about .title{
+    font-size: 75px;
+    font-family: 'Poppins' , sans-serif;width: 25%;
+    color: #9c1fe9;
+    transition: 0.3s;
+    font-weight: 300;
+}
+
+#AB{
+    margin-bottom: -40px;
+}
+
+.about .myinfo{
+    width: 25%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #1b1b1b;
+    transition: 0.3s;
+}
+
+/*  ---- Subjects ----  */
+
+.subs{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:linear-gradient(to right, rgba(29, 29, 29, 0.72), rgba(31, 31, 31, 0.58)),url(./imgs/pexels-fauxels-3184454.jpg) ;
+    background-position: center;
+}
+
+.subsub{
+    width: 80%;
+    padding: 3%;
+    padding-bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items:flex-start;
+}
+
+.subs .subj{
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+.subj h4{
+    color: #f1f1f1;
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.subj p{
+    color: #f1f1f1;
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
 }
